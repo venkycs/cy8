@@ -161,3 +161,5 @@ cython_debug/
 #.idea/
 pyvenv.cfg
 tempdir/
+logs.txt
+.DS_Store
