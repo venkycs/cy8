@@ -31,6 +31,7 @@ def convert_md_to_html(report, html_file):
 
 
 def explore_vulnerability(vulnerability_string, count=5):
+    print("Researching on vulnerability this may take few min: " + vulnerability_string)
     clear_tmp_directory("tempdir")
     url_list = search_term(vulnerability_string, count)
     url_list_downloader(url_list)
@@ -58,6 +59,7 @@ def main():
     args = parser.parse_args()
     logging.info(f"[{current_time}] Started exploring vulnerability: {args.vuln} (with search depth: {args.count})")
     explore_vulnerability(args.vuln, args.count)
+    print("Vulnerability exploration completed")
     logging.info(f"[{current_time}] Vulnerability research completed for {args.vuln}")
 
 
