@@ -47,8 +47,11 @@ Before using Cy8, make sure you have the following prerequisites in place:
 Cy8 leverages the internet to search for information related to the provided vulnerability. Here's a high-level overview of its operation:
 
 **Internet Research**: Cy8 searches the internet, downloading content from relevant URLs and compiling it into a single file.
+
 **AI Augmentation**: It uses AI-powered techniques to analyze and retrieve essential data using predefined questions about vulnerabilities.
+
 **Question & Answer Generation**: Cy8 transforms the extracted information into a Q&A format and uses it to prompt the generation of detailed vulnerability reports.
+
 **Presentation-Ready**: The resulting report is presented in Markdown format and conveniently converted to HTML for easy sharing and collaboration.
 Contribution and Collaboration
 
