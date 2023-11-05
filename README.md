@@ -2,7 +2,11 @@
 
 Cy8 is an innovative project that combines the power of AI with modern technologies like OpenAI, RAG (Retrieval-Augmented Generation), and langChain to simplify and accelerate the process of generating vulnerability reports. Designed for security professionals, Cy8 aims to reduce the time and effort spent on researching and documenting trending vulnerabilities.
 
-Sample report here - [https://github.com/venkycs/cy8/blob/main/Citrix%20Bleed.md](https://github.com/venkycs/cy8/blob/main/reports/cve_2023-46604_apache_activemq.md)
+##Sample reports - 
+
+[CVE-2023-4966 Citrix Bleed](https://github.com/venkycs/cy8/blob/main/reports/citrix-bleed-CVE-2023-4966.md)
+[CVE 2023-46604 Apache ActiveMQ](https://github.com/venkycs/cy8/blob/main/reports/cve_2023-46604_apache_activemq.md)
+
 
 ## Key Features
 
