@@ -1,7 +1,5 @@
 # Cy8 - AI-Powered Vulnerability Report Generation
 
-![Cy8 Logo](cy8_logo.png)
-
 Cy8 is an innovative project that combines the power of AI with modern technologies like OpenAI, RAG (Retrieval-Augmented Generation), and langChain to simplify and accelerate the process of generating vulnerability reports. Designed for security professionals, Cy8 aims to reduce the time and effort spent on researching and documenting trending vulnerabilities.
 
 ## Key Features
@@ -10,7 +8,7 @@ Cy8 is an innovative project that combines the power of AI with modern technolog
 
 - **Ease of Use**: Setting up and running Cy8 is straightforward and takes less than 5 minutes.
 
-- **Stay Informed**: Cy8 keeps you up to date with the latest security threats and vulnerabilities.
+- **Stay Informed**: Cy8 keeps you up to date by fetching latest information on threats and vulnerabilities.
 
 ## Prerequisites
 
