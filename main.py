@@ -36,11 +36,14 @@ def explore_vulnerability(vulnerability_string, count=5):
     url_list = search_term(vulnerability_string, count)
     url_list_downloader(url_list)
     report = generate_vul_report(rag_query_runner("tempdir/temp_data.txt", vulnerability_string))
-    convert_md_to_html(report, vulnerability_string + ".html")
+    if not os.path.exists("reports"):
+        os.makedirs("reports")
+    output_file = "reports/"+ vulnerability_string.lower().replace(" ", "_")
+    with open(output_file+".md", "w", encoding="utf-8") as markdown_file:
+        markdown_file.write(report)    
+    convert_md_to_html(report, output_file + ".html")
     logging.info(f"[{current_time}] Started exploring vulnerability")
-    for _ in range(count):
-        print(vulnerability_string)
-
+    
 
 def main():
     # Check for the OpenAPI environment variable

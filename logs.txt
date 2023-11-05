@@ -1,0 +1,4 @@
+INFO:root:[2023-11-05 13:37:43] Started exploring vulnerability: CVE 2023-46604 Apache ActiveMQ (with search depth: 5)
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:root:[2023-11-05 13:37:43] Started exploring vulnerability
+INFO:root:[2023-11-05 13:37:43] Vulnerability research completed for CVE 2023-46604 Apache ActiveMQ
