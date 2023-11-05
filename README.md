@@ -21,7 +21,7 @@ Before using Cy8, make sure you have the following prerequisites in place:
 1. **Clone the Repository**: Start by cloning the Cy8 repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/cy8.git
+   git clone https://github.com/venkycs/cy8.git
    cd cy8
 
 2. ***Virtual Environment**: Create a virtual environment and activate it to isolate Cy8's dependencies:
